@@ -15,10 +15,10 @@ const Text = () => {
             </p>
           </div>
           <div className=" text-center text-gray-400">
-            <p className=" text-[20px] ">
+            <p className=" text-[17px] sm:text-[20px] ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
             </p>
-            <p className=" text-[20px] ">
+            <p className=" text-[17px] sm:tex[20px] ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
@@ -26,15 +26,15 @@ const Text = () => {
         <div className=" text-center">
           <button
             type="button"
-            className="text-white w-[80%] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded sm:rounded-md  text-lg  sm:px-6 sm:w-auto sm:py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="text-white text-[16px]  w-[80%] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded sm:rounded-md  text-lg  sm:px-7 sm:w-auto sm:py-3.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             Get started
           </button>
           <button
             type="button"
-            class="text-blue-700 w-[80%]  bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 sm:px-6 sm:w-auto sm:py-3.5 rounded sm:rounded-md text-lg  mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+            class="text-blue-700 w-[80%]  bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 sm:px-7 text-[16px] sm:w-auto sm:py-3.5 rounded sm:rounded-md text-lg  mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
           >
-            Live demo
+            Live demoe
           </button>
         </div>
       </div>

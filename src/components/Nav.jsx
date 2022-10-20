@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
         <div>
-        <nav className="bg-white border-gray-200 px-2  sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <nav className=" border-gray-200 px-2  sm:px-4 py-2.5 rounded dark:bg-gray-900">
           <div className="container flex flex-wrap justify-between items-center mx-auto">
             <a href="https://flowbite.com/" className="flex items-center">
               <img
@@ -16,7 +16,7 @@ const Nav = () => {
             <div className="flex md:order-2">
               <button
                 type="button"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-blue-700 bg-white shadow-sm hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-white-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-white-600 dark:hover:bg-white-700 dark:focus:ring-white-700"
               >
                 Log in{" "}
               </button>
@@ -47,7 +47,7 @@ const Nav = () => {
               className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
               id="navbar-cta"
             >
-              <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-10   md:mt-0 md:text-sm md:font-medium md:border-0  md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-10   md:mt-0 md:text-sm md:font-medium md:border-0   dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
                   <a
                     href="#"
