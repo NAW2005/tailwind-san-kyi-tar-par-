@@ -7,7 +7,7 @@ body{
   background-color: #F8FAFF;
 }
 .text{
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0, );
 }
 
 @layer base {
@@ -15,3 +15,4 @@ body{
     font-family: 'Montserrat', sans-serif;
   }
 }
+

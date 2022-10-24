@@ -2,18 +2,23 @@ import React from "react";
 import Faq from "./components/Faq";
 import Feature from "./components/Feature";
 import Nav from "./components/Nav";
+import Showmoney from "./components/Showmoney";
 import Text from "./components/Text";
+import { BrowserRouter  as Router, Routes, Route } from 'react-router-dom'
+import Forsendmoney from "./store/slicer/forsendmoney";
+
+
 
 const App = () => {
   return (
     <>
-      <Nav/>
-      <Text/>
-      <div className=" mt-[50px] mb-0">
-        <Faq/>
-      </div>
-      <Feature/>
-      </>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Feature/>}/>
+          <Route path="/showmoney" element={<Showmoney/>}/>
+        </Routes>
+      </Router>
+    </>
   );
 };
 
